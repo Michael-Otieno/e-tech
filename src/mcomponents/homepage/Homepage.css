@@ -1,5 +1,5 @@
 .navbar{
-  padding:1.5rem 4rem;
+  padding:1.5rem 1rem;
   margin-right: 10rem;
   display: flex;
   justify-content: space-between;
@@ -13,14 +13,54 @@
 .navbar li{
   margin-left: 2rem;
   font-family: Poppins;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 500;
-  line-height: 45px;
-  letter-spacing: 0em;
+  line-height: 2.813rem;
   text-align: left;
   cursor: pointer;
 
 }
 .navbar li:hover{
   color: blue;
+}
+.digital{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 2;
+}
+.digital p{
+  height: 15rem;
+  margin-left: 2.813rem;
+  margin-top: 6.25rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.5rem;
+  color: #000000;
+
+
+}
+.digital img{
+  width: 80%;
+  height: 30rem;
+}
+
+.digital button{
+  height: 3rem;
+  width: 11.438rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  cursor: pointer;
+  background: #FDDA16;
+
+
+  font-family: Poppins;
+  font-size: 1.875rem;
+  font-weight: 600;
+  text-align: center;
+
 }

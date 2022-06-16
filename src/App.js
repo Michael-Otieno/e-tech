@@ -1,11 +1,16 @@
 
 import './App.css';
+import {Routes, Route} from 'react-router-dom';
 import Homepage from './mcomponents/homepage/Homepage';
 
 function App() {
   return (
     <div className="App">
-      <Homepage />
+      <Routes>
+        <Route path='/' element={<Homepage />} />
+        <Route path='/signup' element={<div>Signup</div>} />
+      </Routes>
+      
     </div>
   );
 }

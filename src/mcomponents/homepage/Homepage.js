@@ -1,5 +1,7 @@
 import "./Homepage.css";
 import logo from "../../imgs/e-icon.png";
+import edigital from "../../imgs/edigital.png";
+import { Link } from "react-router-dom";
 
 function Homepage() {
   return (
@@ -12,14 +14,16 @@ function Homepage() {
           <li>Contact</li>
         </ul>
       </nav>
-      <div>
+      <div className="digital">
         <p>
           Training your employees made digital and interactive. Try out our
           website today for more amazing features and awesome content.
           <br />
-          <button>Get started</button>
+          <Link to='/signup'>
+            <button>Get started</button>
+          </Link>
         </p>
-        <img />
+        <img src={edigital} />
       </div>
     </div>
   );
