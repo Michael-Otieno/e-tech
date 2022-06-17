@@ -5,6 +5,7 @@ import Homepage from './mcomponents/homepage/Homepage';
 import Signup from './mcomponents/signup/Signup';
 import Login from './mcomponents/login/Login';
 import Dashboard from './mcomponents/dashboard/Dashboard';
+import History from './mcomponents/history/History';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path='/signup' element={<Signup />} />
         <Route path='/login' element={<Login />} />
         <Route path='/dashboard' element={<Dashboard />} />
+        <Route path='/history' element={<History />} />
       </Routes>
       
     </div>

@@ -34,6 +34,7 @@ function Dashboard() {
         </div>
 
         <div className="recent-activities">
+          
           <h3>Recent activities</h3>
           <table>
             <tr>

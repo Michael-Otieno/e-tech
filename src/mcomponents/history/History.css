@@ -1,0 +1,21 @@
+
+
+.recent-activities-history table{
+  width: 100%;
+  line-height: 2;
+}
+.recent-activities-history td{
+  text-align: left;
+}
+
+.recent-activities-history h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #191970;
+}
+
+.action span{
+  padding-left: 0;
+}
