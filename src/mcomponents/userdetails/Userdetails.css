@@ -4,6 +4,26 @@
   padding-right: 2rem;
 }
 
-.user-details img{
-  padding-right: 1.5rem;
+.user-details h3{
+  background-color: yellow;
+  padding: .5rem 1rem;
+  border-radius: 30px;
+  color: #191970;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.user-details p{
+  color: #191970;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.user-icon{
+  padding-inline: 1.5rem;
+  width: 2.4rem;
 }
