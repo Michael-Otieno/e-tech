@@ -1,12 +1,20 @@
 
-import './Dashboard.css';
+import "./Dashboard.css";
 
-function Dashboard(){
+
+import Sidebar from "../sidebar/Sidebar"; 
+
+
+function Dashboard() {
   return (
-    <div>
-      Dashboard
+    <div className="dashboard">
+      
+      <Sidebar />
+      <div className="content">
+        <h2>My Recent Content</h2>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Dashboard;
