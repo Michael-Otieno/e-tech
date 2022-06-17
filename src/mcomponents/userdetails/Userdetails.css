@@ -1,0 +1,9 @@
+.user-details{
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+.user-details img{
+  padding-right: 1.5rem;
+}

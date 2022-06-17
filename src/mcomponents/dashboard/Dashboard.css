@@ -2,3 +2,26 @@
   display: flex;
   padding-left: 2rem;
 }
+.content{
+  padding-top: 1.5rem;
+  margin-left: 2rem;
+  width: 100%;
+
+}
+.content h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1.675rem;
+color: #191970;
+
+}
+.content-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-header h3{
+  padding-right: 1.8rem;
+}
+
