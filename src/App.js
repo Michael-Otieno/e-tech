@@ -6,7 +6,7 @@ import Signup from './mcomponents/signup/Signup';
 import Login from './mcomponents/login/Login';
 import Dashboard from './mcomponents/dashboard/Dashboard';
 import History from './mcomponents/history/History';
-
+import Content from './mcomponents/content/Content';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/history' element={<History />} />
+        <Route path='/content' element={<Content />} />
       </Routes>
       
     </div>

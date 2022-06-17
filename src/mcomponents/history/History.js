@@ -23,14 +23,14 @@ function History(){
               <th>Date</th>
             </tr>
             <tr>
-              <td className="history-action">
+              <td className="action">
                 Content enrollment
               </td>
               <td className="complete">complete</td>
               <td className="date">8/6/22</td>
             </tr>
             <tr>
-              <td className="history-action">
+              <td className="action">
                 Account creation
               </td>
               <td className="complete">complete</td>
