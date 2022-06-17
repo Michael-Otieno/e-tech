@@ -25,7 +25,7 @@ function Login() {
           </form>
 
           <button className="nextIcon">
-            <Link to="/login">
+            <Link to="/dashboard">
               <img className="next-btn" alt="next button" src={nextIcon} />
             </Link>
           </button>
