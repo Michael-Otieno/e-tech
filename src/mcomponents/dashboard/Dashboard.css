@@ -1,12 +1,11 @@
 .dashboard{
   display: flex;
-  padding-left: 2rem;
   overflow: hidden;
 }
 .content{
   padding-top: 1.5rem;
   margin-left: 2rem;
-  width: 100%;
+  width: 90%;
 
 }
 .content h2{
@@ -15,12 +14,15 @@ font-style: normal;
 font-weight: 600;
 font-size: 1.675rem;
 color: #191970;
+/* margin-right: 35rem; */
 
 }
 .content-header{
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  width: 90%;
+  justify-content: space-between;
+
 }
 .activities{
   width: 100%;

@@ -1,7 +1,7 @@
 .user-details{
   display: flex;
   align-items: center;
-  padding-right: 2rem;
+  /* padding-right: 2rem; */
 }
 
 .user-details h3{
@@ -25,5 +25,5 @@
 
 .user-icon{
   padding-inline: 1.5rem;
-  width: 2.4rem;
+  width: 2.2rem;
 }
