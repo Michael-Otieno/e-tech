@@ -1,6 +1,7 @@
 .dashboard{
   display: flex;
   overflow: hidden;
+  margin-bottom: 3rem;
 }
 .content{
   padding-top: 1.5rem;
