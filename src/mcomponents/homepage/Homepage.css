@@ -1,0 +1,67 @@
+.navbar{
+
+  padding:1.5rem 1rem;
+  /* margin-right: 10rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.navbar li{
+  margin-left: 2rem;
+  font-family: Poppins;
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 2.813rem;
+  text-align: left;
+  cursor: pointer;
+
+}
+.navbar li:hover{
+  color: blue;
+}
+.digital{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 2;
+}
+.digital h1{
+  height: 15rem;
+  margin-left: 2.813rem;
+  margin-top: 6.25rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 2.5rem;
+  color: #000000;
+
+
+}
+.digital img{
+  width: 80%;
+  height: 30rem;
+}
+
+.digital button{
+  height: 3rem;
+  width: 11.438rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  cursor: pointer;
+  background: #FDDA16;
+
+
+  font-family: Poppins;
+  font-size: 1.875rem;
+  font-weight: 600;
+  text-align: center;
+
+}

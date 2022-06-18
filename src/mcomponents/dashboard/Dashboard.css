@@ -1,0 +1,135 @@
+.dashboard{
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+.content{
+  padding-top: 1.5rem;
+  margin-left: 2rem;
+  width: 90%;
+
+}
+.content h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 1.675rem;
+color: #191970;
+/* margin-right: 35rem; */
+
+}
+.content-header{
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+
+}
+.activities{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 2rem;
+  margin-top: .5rem;
+}
+.tech{
+  text-align: center;
+  background: #EDF2F6;
+  border-radius: 30px;
+  padding-top: 1rem;
+  /* margin: 0; */
+}
+.tech img{
+  width: 60%;
+}
+.tech h4{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin: 0;
+}
+.mental{
+  text-align: center;
+  border-radius: 30px;
+}
+.mental img{
+  width: 60%;
+}
+.mental h4{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+.company{
+  text-align: center;
+  border-radius: 30px;
+}
+.company img{
+  width: 60%;
+  border-radius: 50%;
+}
+.company h4{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+.recent-activities{
+  padding-top: 1.5rem;
+  margin-left: 2rem;
+  width: 100%;
+}
+.recent-activities h3{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #191970;
+}
+.recent-activities table{
+  width: 60%;
+}
+.action{
+  display: flex;
+  align-items: center;
+}
+.action img{
+  width: 30px;
+}
+
+.action span{
+  padding-left: 1rem;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 16px;
+  color: #273E70;
+
+}
+th{
+  padding-bottom: .5rem;
+  text-align: left;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #7EBEFF;
+
+
+}
+
+td{
+  text-align: left;
+  padding:.2rem 1rem;
+}
+.complete{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #2FAE4B;
+
+}
+.date{
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 20px;
+  color: #273E70;
+
+}

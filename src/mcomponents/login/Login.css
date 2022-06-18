@@ -1,0 +1,51 @@
+.login{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.login-div{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;  
+  
+}
+.login h2{
+text-align: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+color: #191970;
+
+}
+.login form{
+  text-align: center;
+  line-height: 2;
+}
+.login input{
+  width: 500px;
+  height: 50px;
+  background: #FDDA16;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  margin-top: 1.5rem;
+  padding-left: 1.5rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;  
+  
+  color: #191970;
+}
+
+.login-img{
+  padding-top: 1.5rem;
+}
+.next-btn{
+  margin-top: 2rem;
+}
