@@ -16,6 +16,7 @@
   margin-right: auto;
   padding-top: .5rem;
   text-align: center;
+  cursor: pointer;
 }
 
 .content-grid-img img{
