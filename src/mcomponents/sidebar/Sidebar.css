@@ -1,13 +1,12 @@
 .sidebar{
-  /* margin-right: .5rem; */
   width: 13rem;
   height: 100vh;
   padding-top: 2.5rem;
 
 }
 .sidebar-logo{
-  width: 50%;
-  /* margin-left: 1.5rem; */
+  width: 60%;
+  margin-left: 3rem;
 }
 .sidebar ul{
   padding-top: 1.5rem;
@@ -16,27 +15,44 @@
 .sidebar li{
   list-style: none;
   display:flex;
-  text-align: center;
+  text-align: left;
   padding: .3rem 0rem;
   padding-left: 1rem;
   border-radius: 50px;
-  margin-bottom: 1rem;
+  margin-bottom: .8rem;
 }
+
 .link{
+  display: flex;
+  align-items: center;
+
+ 
+}
+.link a{
   text-decoration: none;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 1.25rem;
   color: #000000;
-  padding-top: .4rem;
-  padding-left:.5rem;
+  width: 100%;
+  padding: .3rem .2rem;
+  border-radius: 50px;
+  padding-left: .5rem;
+
+  
 }
-.back{
+
+.link span{
+  padding-left: .3rem;
+}
+
+.active{
   background-color: yellow;
-  width: 90%;
+  /* width: 90%; */
 }
 .sidebar-img{
-  width: 2rem;
-  height: 2rem;
+  width: 20%;
+  margin:0;
+  height: 1.5rem;
 }
