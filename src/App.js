@@ -7,6 +7,7 @@ import Login from './mcomponents/login/Login';
 import Dashboard from './mcomponents/dashboard/Dashboard';
 import History from './mcomponents/history/History';
 import Content from './mcomponents/content/Content';
+import Entrepreneur from './mcomponents/entrepreneur/Entrepreneur';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/history' element={<History />} />
         <Route path='/content' element={<Content />} />
+        <Route path='/entreprenuer' element={<Entrepreneur />} />
+
       </Routes>
       
     </div>

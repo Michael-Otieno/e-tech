@@ -9,6 +9,8 @@ import insurance from "../../imgs/insurance.png";
 import news from "../../imgs/news.png";
 import mental from "../../imgs/mental.png";
 
+import { Link } from "react-router-dom";
+
 function Content() {
   return (
     <div className="dashboard">
@@ -22,7 +24,9 @@ function Content() {
         <div className="content-activities">
           <div className="content-grid">
             <div className="content-grid-img">
-              <img src={complete} alt="" />
+              <Link to="/entreprenuer">
+                <img src={complete} alt="" />
+              </Link>
             </div>
             <h4>
               Entrepreneurship 50%
@@ -32,7 +36,9 @@ function Content() {
 
           <div className="content-grid">
             <div className="content-grid-img">
+              <Link to="">
               <img src={company} alt="" />
+              </Link>
             </div>
             <h4>
               Company presentation 20%
@@ -42,7 +48,9 @@ function Content() {
 
           <div className="content-grid">
             <div className="content-grid-img">
+              <Link to="">
               <img src={group} alt="" />
+              </Link>
             </div>
             <h4>
               Leadership 80%
@@ -52,7 +60,9 @@ function Content() {
 
           <div className="content-grid">
             <div className="content-grid-img">
+              <Link to="">
               <img src={insurance} alt="" />
+              </Link>
             </div>
             <h4>
               Tech Entrepreneurship 0%
@@ -60,6 +70,7 @@ function Content() {
             </h4>
           </div>
         </div>
+
         <div className="news">
           <img width="50%" src={news} alt="" />
           <div className="content-grid-img">
