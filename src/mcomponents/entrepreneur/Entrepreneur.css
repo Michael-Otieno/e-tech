@@ -1,0 +1,80 @@
+.entreprenuer{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.entre{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #EDF2F6;
+}
+.entre h5{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+  padding-left: 4rem;
+color: #273E70;
+
+}
+.entreback{
+  padding-left: 4rem;
+  width: 100%;
+
+}
+.entreback img{
+  width: 100%;
+  margin-bottom: 2rem;
+  
+}
+
+.back{
+  width: 40px;
+  height: 40px;
+  padding-left: 4rem;
+  padding-top: 3rem;
+}
+.chapters{
+  padding-inline: 2rem;
+}
+.chapters h5{
+  font-family: 'Poppins';
+font-weight: 600;
+font-size: 20px;
+line-height: 5px;
+color: #000000;
+
+}
+.chapter-img{
+  background: #EDF2F6;
+border: 5px solid #B3BFD8;
+border-radius: 20px;
+height: 6rem;
+text-align: center;
+/* margin-bottom: 2rem; */
+
+}
+.chapter{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 2.5rem;
+  width: 100%;
+}
+
+.e-error{
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+}
+.e-error img{
+  width: 50px;
+}
+.e-error span{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color: #FF0000;
+
+}
