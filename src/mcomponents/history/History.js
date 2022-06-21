@@ -26,16 +26,38 @@ function History(){
               <td className="action">
                 Content enrollment
               </td>
-              <td className="complete">complete</td>
+              <td className="complete">Complete</td>
               <td className="date">8/6/22</td>
             </tr>
             <tr>
               <td className="action">
-                Account creation
+                Posted feedback
               </td>
-              <td className="complete">complete</td>
+              <td className="complete">Received</td>
               <td className="date">8/6/22</td>
             </tr>
+            <tr>
+              <td className="action">
+                Login
+              </td>
+              <td className="complete">Complete</td>
+              <td className="date">8/6/22</td>
+            </tr>
+            <tr>
+              <td className="action">
+                Email Verification
+              </td>
+              <td className="complete">Complete</td>
+              <td className="date">8/6/22</td>
+            </tr>
+            <tr>
+              <td className="action">
+                Test 1 attempt
+              </td>
+              <td className="complete">Complete</td>
+              <td className="date">8/6/22</td>
+            </tr>
+            
           </table>
         </div>
 
@@ -45,3 +67,4 @@ function History(){
 }
 
 export default History;
+
