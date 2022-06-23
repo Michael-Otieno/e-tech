@@ -1,0 +1,29 @@
+.summary{
+  margin-top: 1.2rem;
+  width: 100%;
+  margin-left: 1.4rem;
+}
+.summary-back{
+  width: 90%;
+height: 78vh;
+/* background: #A1C4E6; */
+border-radius: 20px;
+display: flex;
+justify-content: space-around;
+/* align-items: center; */
+}
+.graph{
+  width: 30rem;
+  padding-top: 4rem;
+
+}
+.graph-para{
+  max-width: 30rem;
+  line-height: 1.5;
+  font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 18px;
+    color: #273E70;
+    max-width: 500px;
+}
