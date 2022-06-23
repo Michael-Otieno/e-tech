@@ -5,6 +5,7 @@ import logo from "../../imgs/investment.png";
 import signupIcon from "../../imgs/signup.png";
 
 function Signup() {
+  
   return (
     <div className="signup">
       <div className="form">

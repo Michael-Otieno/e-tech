@@ -1,12 +1,12 @@
 import "./Userdetails.css";
-import tests from "../../imgs/tests.png";
+import user from "../../imgs/user.png";
 
 
 function Userdetails(){
   return (
     <div className="user-details">
       
-      <img className="user-icon" src={tests} alt="user" />
+      <img className="user-icon" src={user} alt="user" />
       <p>John</p>
     </div>
   );

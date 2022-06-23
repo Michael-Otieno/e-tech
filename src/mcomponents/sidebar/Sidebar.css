@@ -22,15 +22,16 @@
   
 }
 
-.link{
+.link-sidebar{
   display: flex;
   align-items: center;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   text-decoration: none;
-
+  font-weight: 700;
+  margin: 0;
  
 }
-.link a{
+.link-sidebar a{
   text-decoration: none;
   font-weight: 400;
   font-size: 1.25rem;
@@ -41,10 +42,11 @@
   color: #022950;
   padding: 0;
   padding-top: .2rem;
+  text-decoration: none;
 
 }
 
-.link span{
+.link-sidebar span{
   padding-left: .5rem;
   
 }
