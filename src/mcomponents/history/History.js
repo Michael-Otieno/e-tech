@@ -6,7 +6,7 @@ import Userdetails from "../userdetails/Userdetails";
 
 function History(){
   return (
-    <div className="dashboard">
+  <div className="dashboard">
     <Sidebar />
     <div className="content">
       <div className="content-header">
