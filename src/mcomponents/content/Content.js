@@ -24,6 +24,7 @@ function Content() {
         </div>
 
         <div className="content-activities">
+          
 
           <div className="content-grid">
             <div className="content-grid-img">

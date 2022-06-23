@@ -1,6 +1,6 @@
 .trainings{
   margin-left: 1rem;
-  margin-top: 2rem;
+  margin-top: 1.2rem;
 }
 
 .trainings h3{
@@ -42,12 +42,8 @@
   color:red;
 }
 .ended-training h3{
-  /* font-weight: 700;
-  font-size: 20px;  
-  color: #022950; */
   margin-left: 2rem;
 }
-
 .ended-training li{
   list-style: none;
   line-height: 2;
@@ -60,3 +56,4 @@
   margin-bottom: 1rem;
   background-color: #A1C4E6;
 }
+
