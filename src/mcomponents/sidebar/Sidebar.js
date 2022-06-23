@@ -1,6 +1,6 @@
 import "./Sidebar.css";
 
-import logo from "../../imgs/e-icon.png";
+import logo from "../../imgs/investment.png";
 import homeLight from "../../imgs/Home-light.png";
 import history from "../../imgs/history.png";
 import content from "../../imgs/content.png";
@@ -10,7 +10,7 @@ import certificates from "../../imgs/certificates.png";
 import logout from "../../imgs/logout.png";
 import mentorship from "../../imgs/mentorships.png";
 
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Sidebar() {
   return (
@@ -38,9 +38,15 @@ function Sidebar() {
             </NavLink>
           </li>
           <li className="link">
+            <NavLink to="/certificates" activeClassName="active">
+              <img className="sidebar-img" alt="home icon" src={certificates} />
+              <span>Trainings</span>
+            </NavLink>
+          </li>
+          <li className="link">
             <NavLink to="/test">
               <img className="sidebar-img" alt="home icon" src={tests} />
-              <span>Tests</span>
+              <span>Certification</span>
             </NavLink>
           </li>
           <li className="link">
@@ -49,16 +55,16 @@ function Sidebar() {
               <span>Feedback</span>
             </NavLink>
           </li>
-          <li className="link">
+          {/* <li className="link">
             <NavLink to="/certificates" activeClassName="active">
               <img className="sidebar-img" alt="home icon" src={certificates} />
-              <span>Certification</span>
+              <span>Consultation</span>
             </NavLink>
-          </li>
+          </li> */}
           <li className="link">
             <NavLink to="/mentorship" activeClassName="active">
               <img className="sidebar-img" alt="home icon" src={mentorship} />
-              <span>Consultation</span>
+              <span>Summary</span>
             </NavLink>
           </li>
 

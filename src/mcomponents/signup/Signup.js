@@ -1,36 +1,45 @@
 import { Link } from "react-router-dom";
 
 import "./Signup.css";
-// import errorIcon from "../../imgs/error.png";
-import nextIcon from "../../imgs/next.png";
+import logo from "../../imgs/investment.png";
 import signupIcon from "../../imgs/signup.png";
 
 function Signup() {
   return (
     <div className="signup">
-      <div>
-        <h2>Sign up</h2>
-        <form >
-          <input type="text" placeholder="Username" required />
+      <div className="form">
+        <div className="form-logo">
+          <img width="40" src={logo} alt="" />
+          <h2>Sign up</h2>
+          <p></p>
+        </div>
+        <form>
+          <label>Name: </label>
           <br />
-          <input type="email" placeholder="email" required />
+          <input className="input" type="text" required />
           <br />
-          <input type="password" placeholder="password" required />
+          <label>Email: </label>
           <br />
-          <input type="text" placeholder="company name" required />
-          {/* <p className="error-icon-para">
-            <img className="error-icon" src={errorIcon} alt="" />
-            <span>reply with your correct company name</span>
-          </p> */}
-           <button className="nextIcon">
-          <Link to="/login">
-            <img alt="next button" src={nextIcon} />
-          </Link>
-          
-        </button>
+          <input className="input" type="email" required />
+          <br />
+          <label>Company: </label>
+          <br />
+          <input className="input" type="text" required />
+          <br />
+          <label>Email: </label>
+          <br />
+          <input className="input" type="password" required />
+          <br />
         </form>
-
-       
+        <div className="submit">
+          <Link to="/login">
+            <input type="Submit" value="Sign up" />
+          </Link>
+          <p>
+            <span>Already signed up?</span>
+            <Link className="link" to="/login">Log in</Link>
+          </p>
+        </div>
       </div>
 
       <div className="e-tech-img">

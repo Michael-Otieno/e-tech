@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../../imgs/investment.png";
 
 // import errorIcon from "../../imgs/error.png";
 import nextIcon from "../../imgs/next.png";
@@ -8,32 +9,38 @@ import "./Login.css";
 
 function Login() {
   return (
-    <div className="login">
-      <div className="login-div">
-        <div>
-          <h2>Sign in</h2>
-          <form>
-            <input type="email" placeholder="email" />
-            <br />
-            <input type="password" placeholder="password" />
-            <br />
-
-            {/* <p className="error-icon-para">
-            <img className="error-icon" src={errorIcon} alt="" />
-            <span>reply with your correct company name</span>
-          </p> */}
-          </form>
-
-          <button className="nextIcon">
-            <Link to="/dashboard">
-              <img className="next-btn" alt="next button" src={nextIcon} />
-            </Link>
-          </button>
+    <div className="signup login">
+      <div className="form">
+        <div className="form-logo">
+          <img width="40" src={logo} alt="" />
+          <h2>Sign In</h2>
+          <p></p>
+        </div>
+        <form>
+          <label>Email: </label>
+          <br />
+          <input className="input" type="email" required />
+          <br />
+        
+          <br />
+          <label>Password: </label>
+          <br />
+          <input className="input" type="password" required />
+          <br />
+        </form>
+        <div className="submit">
+          <Link to="/dashboard">
+            <input type="Submit" value="Sign in" />
+          </Link>
+          <p>
+            <span>Don't have an account?</span>
+            <Link className="link" to="/signup">Sign in</Link>
+          </p>
         </div>
       </div>
 
       <div className="e-tech-img">
-        <img className="login-img" src={signupIcon} alt="login up" />
+        <img src={signupIcon} alt="sign up" />
       </div>
     </div>
   );

@@ -1,4 +1,9 @@
 .login{
+  padding-top: 5rem;
+}
+
+
+/* .login{
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 1rem;
@@ -48,4 +53,4 @@ color: #191970;
 }
 .next-btn{
   margin-top: 2rem;
-}
+} */

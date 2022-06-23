@@ -10,7 +10,7 @@ function History(){
     <Sidebar />
     <div className="content">
       <div className="content-header">
-        <h2>History</h2>
+        <h2></h2>
         <Userdetails />
       </div>
 

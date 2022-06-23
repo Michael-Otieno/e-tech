@@ -17,15 +17,16 @@ function Content() {
       <Sidebar />
       <div className="content">
         <div className="content-header">
-          <h2>Content</h2>
+          <h2></h2>
           <Userdetails />
         </div>
 
         <div className="content-activities">
+
           <div className="content-grid">
             <div className="content-grid-img">
               <Link to="/entreprenuer">
-                <img src={complete} alt="" />
+                <img className="tech-ent" src={complete} alt="" />
               </Link>
             </div>
             <h4>
@@ -37,11 +38,11 @@ function Content() {
           <div className="content-grid">
             <div className="content-grid-img">
               <Link to="">
-              <img src={company} alt="" />
+              <img className="tech-ent" src={company} alt="" />
               </Link>
             </div>
             <h4>
-              Company presentation 20%
+              Trainings 20%
               <span>complete</span>
             </h4>
           </div>
@@ -49,7 +50,7 @@ function Content() {
           <div className="content-grid">
             <div className="content-grid-img">
               <Link to="">
-              <img src={group} alt="" />
+              <img className="tech-ent" src={group} alt="" />
               </Link>
             </div>
             <h4>
@@ -61,7 +62,7 @@ function Content() {
           <div className="content-grid">
             <div className="content-grid-img">
               <Link to="">
-              <img src={insurance} alt="" />
+              <img className="tech-ent" src={insurance} alt="" />
               </Link>
             </div>
             <h4>
@@ -72,10 +73,12 @@ function Content() {
         </div>
 
         <div className="news">
-          <img width="50%" src={news} alt="" />
-          <div className="content-grid-img">
+        <div className="content-grid-img">
             <img src={mental} alt="" />
+            <h4>Family & Mental Health</h4>
           </div>
+          <img width="50%" src={news} alt="" />
+          
         </div>
       </div>
     </div>

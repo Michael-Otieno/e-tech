@@ -1,0 +1,28 @@
+.feedback{
+  padding-left: 2rem;
+  width: 90%;
+  position: relative;
+}
+.feedback h4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color: #191970;
+
+}
+.textarea{
+  color: black;
+  width: 100%;
+  background: #D9D9D9;
+  border: none;
+  padding: 1rem;
+}
+.feedback button{
+  width: 131px;
+height: 38px;
+background: #FDDA16;
+border-radius: 30px;
+border: none;
+
+}
