@@ -10,6 +10,7 @@ import Content from './mcomponents/content/Content';
 import Entrepreneur from './mcomponents/entrepreneur/Entrepreneur';
 import Feedback from './mcomponents/feedback/Feedback';
 import Trainings from './mcomponents/trainings/Trainings';
+import Summary from './mcomponents/summary/Summary';
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route path='/entreprenuer' element={<Entrepreneur />} />
         <Route path='/feedback' element={<Feedback />} />
         <Route path='/trainings' element={<Trainings />} />
+        <Route path='/summary' element={<Summary />} />
       </Routes>
       
     </div>
