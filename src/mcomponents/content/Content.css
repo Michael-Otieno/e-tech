@@ -1,7 +1,7 @@
 .content-activities{
   display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  gap:2rem;
+  grid-template-columns: 30% 30% 30%;
+  gap:1rem;
   margin-top: 2rem;
 }
 .content-grid-img{
@@ -15,7 +15,7 @@
 
 .tech-ent{
   width: 100%;
-  height: 13rem;
+  height: 16rem;
   border-radius: 10px;
 
 }
