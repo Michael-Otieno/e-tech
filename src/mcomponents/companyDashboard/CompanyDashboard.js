@@ -17,7 +17,7 @@ function CompanyDashboard() {
       <div className="content">
         <div className="content-header">
           <h2></h2>
-          <Userdetails />
+          {/* <Userdetails /> */}
         </div>
         <div className="activities">
           <div className="tech">
