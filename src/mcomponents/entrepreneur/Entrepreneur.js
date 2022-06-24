@@ -2,7 +2,7 @@ import "./Entrepreneur.css";
 import entreback from "../../imgs/entreback.png";
 import cloud from "../../imgs/cloud.png";
 import errorIcon from "../../imgs/error.png";
-import back from "../../imgs/Back.png";
+import back from "../../imgs/entreLightBack.png";
 import { Link } from "react-router-dom";
 
 function Entrepreneur() {
@@ -10,42 +10,106 @@ function Entrepreneur() {
     <div className="entreprenuer">
       <div className="entre">
         <div>
-          <h5>Entrepreneurship</h5>
+          <h2>Entrepreneurship Articles</h2>
           <div className="entreback">
-            <img src={entreback} alt="" />
+            <div className="entre-news">
+              <img src={entreback} alt="" />
+              <div className="entre-news-para">
+                <h5 className="entre-news-title">
+                  WHY VENTURE CAPITALS ARE HOTSPOTTING NIGERIA AND KENYAN
+                  STARTUPS IN AFRICA
+                </h5>
+                <p>
+                  By Winnie Kamau Nairobi, Kenya: The State of Tech in Africa
+                  Report 2021 was launched in Capetown, South Africa. This
+                  report got me curious. <br /> <br />
+                  By Winnie Kamau Nairobi, Kenya: The State of Tech in Africa
+                  Report 2021 was launched in Capetown, South Africa. This
+                  report got me curious
+                </p>
+              </div>
+            </div>
+
+            <div className="entre-news">
+              <img src={entreback} alt="" />
+              <div className="entre-news-para">
+                <h5 className="entre-news-title">
+                  WHY VENTURE CAPITALS ARE HOTSPOTTING NIGERIA AND KENYAN
+                  STARTUPS IN AFRICA
+                </h5>
+                <p>
+                  By Winnie Kamau Nairobi, Kenya: The State of Tech in Africa
+                  Report 2021 was launched in Capetown, South Africa. This
+                  report got me curious. <br /> <br />
+                  By Winnie Kamau Nairobi, Kenya: The State of Tech in Africa
+                  Report 2021 was launched in Capetown, South Africa. This
+                  report got me curious
+                </p>
+              </div>
+            </div>
+
+            <div className="entre-news">
+              <img src={entreback} alt="" />
+              <div className="entre-news-para">
+                <h5 className="entre-news-title">
+                  WHY VENTURE CAPITALS ARE HOTSPOTTING NIGERIA AND KENYAN
+                  STARTUPS IN AFRICA
+                </h5>
+                <p>
+                  By Winnie Kamau Nairobi, Kenya: The State of Tech in Africa
+                  Report 2021 was launched in Capetown, South Africa. This
+                  report got me curious. <br /> <br />
+                  By Winnie Kamau Nairobi, Kenya: The State of Tech in Africa
+                  Report 2021 was launched in Capetown, South Africa. This
+                  report got me curious
+                </p>
+              </div>
+            </div>
           </div>
+
           <Link to="/content">
-            <img className="back" src={back} alt="" />
+            <button className="back">
+              <img src={back} alt="" />
+              Back
+            </button>
           </Link>
         </div>
       </div>
       <div className="chapters">
-        <div>
-          <h5>Chapters</h5>
+        <div className="entre-news-chapter">
+          <h5>Latest news</h5>
           <div className="chapter">
             <div className="chapter-img">
-              <img src={cloud} alt="" />
-              <p>1</p>
+              <div>
+                <h6>
+                  WHY VENTURE CAPITALS ARE HOTSPOTTING NIGERIA AND KENYAN
+                  STARTUPS IN AFRICA
+                </h6>
+                <p>
+                  By Winnie Kamau Nairobi, Kenya: The State of Tech in Africa
+                  Report 2021 was launched in Capetown, South Africa. This
+                  report got me curious
+                </p>
+              </div>
             </div>
+          </div>
+
+          <div className="chapter">
             <div className="chapter-img">
-              <img src={cloud} alt="" />
-              <p>2</p>
-            </div>
-            <div className="chapter-img">
-              <img src={cloud} alt="" />
-              <p>3</p>
-            </div>
-            <div className="chapter-img">
-              <img src={cloud} alt="" />
-              <p>4</p>
+              <div>
+                <h6>
+                  WHY VENTURE CAPITALS ARE HOTSPOTTING NIGERIA AND KENYAN
+                  STARTUPS IN AFRICA
+                </h6>
+                <p>
+                  By Winnie Kamau Nairobi, Kenya: The State of Tech in Africa
+                  Report 2021 was launched in Capetown, South Africa. This
+                  report got me curious
+                </p>
+              </div>
             </div>
           </div>
         </div>
-
-        <p className="e-error">
-          <img src={errorIcon} alt="" />
-          <span>click on a chapter to download</span>
-        </p>
       </div>
     </div>
   );
