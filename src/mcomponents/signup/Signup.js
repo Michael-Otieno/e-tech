@@ -27,7 +27,7 @@ function Signup() {
           <br />
           <input className="input" type="text" required />
           <br />
-          <label>Email: </label>
+          <label>Password: </label>
           <br />
           <input className="input" type="password" required />
           <br />
