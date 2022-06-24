@@ -16,11 +16,11 @@
 }
 
 .user-details p{
-  color: #191970;
-  font-family: 'Poppins';
-  font-weight: 600;
-  font-size: 1.25rem;
-  cursor: pointer;
+  font-family: 'Public Sans';
+  font-weight: 400;
+  font-size: 20px;
+  color: #E58A7B;
+  
 }
 
 .user-icon{

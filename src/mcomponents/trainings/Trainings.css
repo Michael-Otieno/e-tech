@@ -1,0 +1,63 @@
+.trainings{
+  margin-left: 1rem;
+  margin-top: 1.2rem;
+}
+
+.trainings h3{
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #273E70;
+  
+}
+
+.all-trainings{
+  display: flex;
+  width: 100%;
+}
+.company-training ul{
+  text-align: left;
+  margin: 0;
+  padding: .3rem;
+  
+
+}
+.company-training li{
+  list-style: none;
+  line-height: 2;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding:.4rem .3rem;
+  border-radius: 10px;
+  color: #273E70;
+  cursor: pointer;
+  margin-bottom: 1rem;
+
+  
+}
+.time{
+  color: #2FAE4B;
+}
+.time-end{
+  color:red;
+}
+
+.ended-training{
+  margin-left: 2rem;
+
+}
+.ended-training h3{
+  margin-left: 2rem;
+}
+.ended-training li{
+  list-style: none;
+  line-height: 2;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding:.4rem .3rem;
+  border-radius: 10px;
+  color: #273E70;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  background-color: #A1C4E6;
+}
+

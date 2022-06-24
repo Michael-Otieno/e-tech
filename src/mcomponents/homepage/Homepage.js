@@ -1,29 +1,30 @@
 import "./Homepage.css";
-import logo from "../../imgs/e-icon.png";
+import logo from "../../imgs/investment.png";
 import edigital from "../../imgs/edigital.png";
 import { Link } from "react-router-dom";
 
 function Homepage() {
   return (
-    <div>
+    <div className="homepage">
       <nav className="navbar">
-        <img alt="" src={logo} />
-        <ul>
-          <li>Home</li>
-          <li>What we do</li>
-          <li>Contact</li>
-        </ul>
+        <img height="60" alt="" src={logo} />
+        <div></div>
       </nav>
       <div className="digital">
-        <h1>
-          Training your employees made digital and interactive. Try out our
-          website today for more amazing features and awesome content.
-          <br />
-          <Link to='/signup'>
-            <button>Get started</button>
+        <div className="training">
+          <h1>E- Tech</h1>
+          <h2>
+            Training your employees made digital and interactive. Try out our
+            website today for more amazing features and awesome content.
+          </h2>
+          <Link className="company-btn" to="/company-signup">
+            <button>Company</button>
           </Link>
-        </h1>
-        <img alt="" src={edigital} />
+          <Link to="/signup">
+            <button>Employee</button>
+          </Link>
+        </div>
+        <img className="edigital" alt="" src={edigital} />
       </div>
     </div>
   );

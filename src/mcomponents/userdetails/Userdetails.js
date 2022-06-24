@@ -1,13 +1,13 @@
 import "./Userdetails.css";
-import tests from "../../imgs/tests.png";
+import user from "../../imgs/user.png";
 
 
 function Userdetails(){
   return (
     <div className="user-details">
-      <h3>Company name</h3>
-      <img className="user-icon" src={tests} alt="user" />
-      <p>Anonymous</p>
+      
+      <img className="user-icon" src={user} alt="user" />
+      <p>John</p>
     </div>
   );
 }

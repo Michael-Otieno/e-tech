@@ -1,67 +1,76 @@
-.navbar{
+.homepage{
+  height: 100vh;
+  width: 100%;
+}
 
+.navbar{
+  padding-top: 2rem;
   padding:1.5rem 1rem;
-  /* margin-right: 10rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.navbar ul{
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-}
-.navbar li{
-  margin-left: 2rem;
-  font-family: Poppins;
-  font-size: 1.875rem;
-  font-weight: 500;
-  line-height: 2.813rem;
-  text-align: left;
-  cursor: pointer;
 
+.training{
+  width: 100%;
 }
-.navbar li:hover{
-  color: blue;
+
+.edigital{
+  margin-left: 3rem;
 }
+
 .digital{
-  display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 2;
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin-top: 2rem;
 }
 .digital h1{
-  height: 15rem;
-  margin-left: 2.813rem;
-  margin-top: 6.25rem;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.875rem;
-  line-height: 2.5rem;
-  color: #000000;
+  margin-left: 3rem;
+  font-family: 'Public Sans';
+  font-weight: 700;
+  font-size: 30px;
+  color: #022950;
+  text-decoration: underline;
+}
 
+.digital h2{
+  margin-left: 3rem;
+  margin-top: 1rem;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 47px;
+  max-width: 50rem;
+  color: #022950;
 
 }
 .digital img{
-  width: 80%;
-  height: 30rem;
+  width: 60%;
+  height: 20rem;
 }
 
 .digital button{
   height: 3rem;
-  width: 11.438rem;
-  border-radius: 50px;
+  width: 11rem;
+  border-radius: 10px;
   border: none;
   outline: none;
-  margin-left: 10rem;
+  margin-left: 4rem;
   margin-top: 5rem;
   cursor: pointer;
-  background: #FDDA16;
-
-
-  font-family: Poppins;
+  background: #0352A0;
   font-size: 1.875rem;
-  font-weight: 600;
   text-align: center;
 
+  font-family: 'Public Sans';
+  font-weight: 700;
+  font-size: 24px;
+  color: #E58A7B;
+
+}
+.company-btn{
+  margin-right: 6rem;
 }

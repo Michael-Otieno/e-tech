@@ -1,10 +1,10 @@
 .dashboard{
   display: flex;
   overflow: hidden;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 .content{
-  padding-top: 1.5rem;
+  margin-top: 2rem;
   margin-left: 2rem;
   width: 90%;
 
@@ -28,61 +28,75 @@ color: #191970;
   width: 100%;
   display: grid;
   grid-template-columns: 30% 30% 30%;
-  gap: 2rem;
-  margin-top: .5rem;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 .tech{
   text-align: center;
-  background: #EDF2F6;
-  border-radius: 30px;
-  padding-top: 1rem;
-  /* margin: 0; */
+  border-radius: 10px;
 }
 .tech img{
-  width: 60%;
+  width: 90%;
+  height: 16rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
 }
 .tech h4{
-  font-family: 'Poppins';
-  font-weight: 600;
-  font-size: 1.125rem;
+  font-weight: 400;
+  font-size: 1rem;
   margin: 0;
+  font-weight: 600;
+  color: #022950;
+
+
 }
 .mental{
   text-align: center;
   border-radius: 30px;
 }
 .mental img{
-  width: 60%;
+  width: 90%;
+  height: 16rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
 }
 .mental h4{
-  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
   font-weight: 600;
-  font-size: 1.125rem;
+  color: #022950;
 }
 .company{
   text-align: center;
   border-radius: 30px;
 }
 .company img{
-  width: 60%;
-  border-radius: 50%;
+  width: 90%;
+  height: 16rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
 }
 .company h4{
-  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0;
   font-weight: 600;
-  font-size: 1.125rem;
+  color: #022950;
 }
 .recent-activities{
-  padding-top: 1.5rem;
-  margin-left: 2rem;
+  padding-top: 2.5rem;
+  margin-left: 3.5rem;
   width: 100%;
 }
 .recent-activities h3{
-  font-family: 'Poppins';
-  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: 0;
+  padding-block:.5rem;
   font-weight: 600;
-  font-size: 1.5rem;
-  color: #191970;
+  color: #E58A7B;
+
 }
 .recent-activities table{
   width: 60%;
@@ -96,9 +110,8 @@ color: #191970;
 }
 
 .action span{
-  padding-left: 1rem;
-  font-family: 'Poppins';
-  font-weight: 600;
+  /* padding-left: 1rem; */
+  font-weight: 400;
   font-size: 16px;
   color: #273E70;
 
@@ -106,29 +119,27 @@ color: #191970;
 th{
   padding-bottom: .5rem;
   text-align: left;
-  font-family: 'Poppins';
-  font-weight: 600;
-  font-size: 1.2rem;
-  color: #7EBEFF;
-
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #022950;
 
 }
 
 td{
   text-align: left;
-  padding:.2rem 1rem;
+  padding:.2rem 0rem;
+    font-size: 1.1rem;
+
 }
 .complete{
-  font-family: 'Poppins';
-  font-weight: 600;
-  font-size: 1.2rem;
+  font-weight: 400;
+  font-size: 1.1rem;
   color: #2FAE4B;
 
 }
 .date{
-  font-family: 'Poppins';
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 1.1rem;
   color: #273E70;
 
 }
