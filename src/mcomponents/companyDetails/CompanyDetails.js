@@ -33,7 +33,7 @@ function CompanyDetails() {
           <br />
         </form>
         <div className="submit">
-          <Link to="/login">
+          <Link to="/company-login">
             <input type="Submit" value="Sign up" />
           </Link>
           <p>
