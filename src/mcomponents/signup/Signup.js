@@ -10,7 +10,7 @@ function Signup() {
     <div className="signup">
       <div className="form">
         <div className="form-logo">
-          <img width="40" src={logo} alt="" />
+          <img className="signup-img" src={logo} alt="" />
           <h2>Sign up</h2>
           <p></p>
         </div>

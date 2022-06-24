@@ -12,7 +12,7 @@ function Login() {
     <div className="signup login">
       <div className="form">
         <div className="form-logo">
-          <img width="40" src={logo} alt="" />
+          <img className="signup-img" src={logo} alt="" />
           <h2>Sign In</h2>
           <p></p>
         </div>

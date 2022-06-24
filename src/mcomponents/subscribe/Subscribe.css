@@ -1,0 +1,24 @@
+.subscribe{
+  padding: 1.5rem;
+
+}
+.subscribe-review h2{
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;  
+  color: #022950;
+  
+}
+.subscribe-review p{
+font-weight: 400;
+font-size: 1rem;
+line-height: 24px;
+max-width: 60%;
+color: #022950;
+
+}
+.signup-img{
+  border-radius: 50%;
+  width:40px;
+}
