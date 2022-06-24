@@ -11,6 +11,7 @@ import Entrepreneur from './mcomponents/entrepreneur/Entrepreneur';
 import Feedback from './mcomponents/feedback/Feedback';
 import Trainings from './mcomponents/trainings/Trainings';
 import Summary from './mcomponents/summary/Summary';
+import Subscribe from './mcomponents/subscribe/Subscribe';
 
 
 
@@ -28,6 +29,7 @@ function App() {
         <Route path='/feedback' element={<Feedback />} />
         <Route path='/trainings' element={<Trainings />} />
         <Route path='/summary' element={<Summary />} />
+        <Route path='/company-signup' element={<Subscribe />} />
       </Routes>
       
     </div>
