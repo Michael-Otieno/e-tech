@@ -26,7 +26,7 @@ function Feedback() {
               </p>
             </div>
             <div>
-              <img src={feedback} />
+              <img src={feedback} alt='' />
             </div>
           </div>
           <div>

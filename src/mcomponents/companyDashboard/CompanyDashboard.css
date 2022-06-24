@@ -1,0 +1,43 @@
+.company-feedback-btn{
+  width: 100px;
+height: 38px;
+background: #022950;
+border-radius: 10px;border: none;
+color: #E58A7B;
+font-family: 'Public Sans';
+font-weight: 700;
+font-size: 20px;
+text-align: center;
+right: 0;
+z-index: 999;
+cursor: pointer;
+}
+.company-textarea{
+  color: black;  
+  background: #FFFFFF;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 30rem;
+  height: 8rem;
+}
+.company-activities{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2.2rem;
+}
+.add{
+    height: 38px;
+    background: #022950;
+    border-radius: 10px;
+    border: none;
+    color: #E58A7B;
+    font-family: 'Public Sans';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    right: 0;
+    z-index: 999;
+    cursor: pointer;
+}
