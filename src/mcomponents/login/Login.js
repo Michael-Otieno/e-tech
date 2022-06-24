@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import logo from "../../imgs/investment.png";
 
 // import errorIcon from "../../imgs/error.png";
-import nextIcon from "../../imgs/next.png";
+// import nextIcon from "../../imgs/next.png";
 import signupIcon from "../../imgs/signup.png";
 
 import "./Login.css";
