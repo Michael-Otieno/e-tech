@@ -12,6 +12,7 @@ import Feedback from './mcomponents/feedback/Feedback';
 import Trainings from './mcomponents/trainings/Trainings';
 import Summary from './mcomponents/summary/Summary';
 import Subscribe from './mcomponents/subscribe/Subscribe';
+import Footer from './mcomponents/footer/Footer';
 
 
 
@@ -31,7 +32,7 @@ function App() {
         <Route path='/summary' element={<Summary />} />
         <Route path='/company-signup' element={<Subscribe />} />
       </Routes>
-      mmmmm
+      <Footer/>
     </div>
   );
 }
