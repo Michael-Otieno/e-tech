@@ -17,8 +17,11 @@ function Homepage() {
             Training your employees made digital and interactive. Try out our
             website today for more amazing features and awesome content.
           </h2>
+          <Link className="company-btn" to="/company-signup">
+            <button>Company</button>
+          </Link>
           <Link to="/signup">
-            <button>Get started</button>
+            <button>Employee</button>
           </Link>
         </div>
         <img className="edigital" alt="" src={edigital} />

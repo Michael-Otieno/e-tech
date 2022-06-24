@@ -5,9 +5,8 @@
 
 .trainings h3{
   font-weight: 700;
-  font-size: 20px;  
-  color: #022950;
-  
+  font-size: 1.4rem;
+  color: #273E70;
   
 }
 
@@ -40,6 +39,11 @@
 }
 .time-end{
   color:red;
+}
+
+.ended-training{
+  margin-left: 2rem;
+
 }
 .ended-training h3{
   margin-left: 2rem;
