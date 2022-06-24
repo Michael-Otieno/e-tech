@@ -1,13 +1,11 @@
 import { Link } from "react-router-dom";
 import logo from "../../imgs/investment.png";
 
-// import errorIcon from "../../imgs/error.png";
-// import nextIcon from "../../imgs/next.png";
 import signupIcon from "../../imgs/signup.png";
 
-import "./Login.css";
+import "./CompanyLogin.css";
 
-function Login() {
+function CompanyLogin() {
   return (
     <div className="signup login">
       <div className="form">
@@ -17,7 +15,7 @@ function Login() {
           <p></p>
         </div>
         <form>
-          <label>Email: </label>
+          <label>Company Email: </label>
           <br />
           <input className="input" type="email" required />
           <br />
@@ -29,7 +27,7 @@ function Login() {
           <br />
         </form>
         <div className="submit">
-          <Link to="/dashboard">
+          <Link to="/company-dashboard">
             <input type="Submit" value="Sign in" />
           </Link>
           <p>
@@ -45,4 +43,4 @@ function Login() {
     </div>
   );
 }
-export default Login;
+export default CompanyLogin;

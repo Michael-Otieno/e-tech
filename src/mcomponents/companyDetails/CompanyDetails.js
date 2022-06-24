@@ -1,27 +1,31 @@
 import { Link } from "react-router-dom";
-import logo from "../../imgs/investment.png";
 
-// import errorIcon from "../../imgs/error.png";
-// import nextIcon from "../../imgs/next.png";
+import "./CompanyDetails.css";
+import logo from "../../imgs/investment.png";
 import signupIcon from "../../imgs/signup.png";
 
-import "./Login.css";
-
-function Login() {
+function CompanyDetails() {
+  
   return (
-    <div className="signup login">
+    <div className="signup">
       <div className="form">
         <div className="form-logo">
           <img className="signup-img" src={logo} alt="" />
-          <h2>Sign In</h2>
+          <h2>Sign up</h2>
           <p></p>
         </div>
         <form>
+          <label>Company Name: </label>
+          <br />
+          <input className="input" type="text" required />
+          <br />
           <label>Email: </label>
           <br />
           <input className="input" type="email" required />
           <br />
-        
+          <label>Business category: </label>
+          <br />
+          <input className="input" type="text" required />
           <br />
           <label>Password: </label>
           <br />
@@ -29,12 +33,12 @@ function Login() {
           <br />
         </form>
         <div className="submit">
-          <Link to="/dashboard">
-            <input type="Submit" value="Sign in" />
+          <Link to="/company-login">
+            <input type="Submit" value="Sign up" />
           </Link>
           <p>
-            <span>Don't have an account?</span>
-            <Link className="link" to="/signup">Sign in</Link>
+            <span>Already signed up?</span>
+            <Link className="link" to="/login">Log in</Link>
           </p>
         </div>
       </div>
@@ -45,4 +49,4 @@ function Login() {
     </div>
   );
 }
-export default Login;
+export default CompanyDetails;

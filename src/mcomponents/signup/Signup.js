@@ -10,7 +10,7 @@ function Signup() {
     <div className="signup">
       <div className="form">
         <div className="form-logo">
-          <img width="40" src={logo} alt="" />
+          <img className="signup-img" src={logo} alt="" />
           <h2>Sign up</h2>
           <p></p>
         </div>
@@ -27,7 +27,7 @@ function Signup() {
           <br />
           <input className="input" type="text" required />
           <br />
-          <label>Email: </label>
+          <label>Password: </label>
           <br />
           <input className="input" type="password" required />
           <br />

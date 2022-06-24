@@ -14,9 +14,12 @@ font-size: 24px;
 color: #022950;
 }
 
-.signup img{
+/* .signup img{
   border-radius: 50%;
-}
+  width:40px;
+
+} */
+
 
 .form{
   background: rgba(116, 169, 222, 0.65);
