@@ -1,24 +1,13 @@
 import "./Homepage.css";
-import logo from "../../imgs/investment.png";
+import "./HomeNav"
 import edigital from "../../imgs/edigital.png";
 import { Link } from "react-router-dom";
+import HomeNav from "./HomeNav";
 
 function Homepage() {
   return (
     <div className="homepage">
-      <nav className="navbar">
-        <div className='homepage-navbar-logo'>
-          <img alt="" src={logo} />
-          <h1>E-Tech</h1>
-        </div>
-        <div className='home-navbar-links'>
-          <ul>
-            <li>Why E-tech</li>
-            <li>Testimonial</li>
-            <li>Contact Us</li>
-          </ul>
-        </div>
-      </nav>
+      <HomeNav/>
       <div className="digital">
         <div className="training">
           <h2>
