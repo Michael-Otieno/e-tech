@@ -1,26 +1,45 @@
-.subscribe{
-  padding: 1.5rem;
-
-}
 
 .subscribe-review{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin-left: 8rem;
+  margin-top: 1rem;
+}
+.subscribe-cond{
+  max-width: 40rem;
+}
+.subscribe-cond p{
+  font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* or 139% */
+
+
+color: #263238;
+
 }
 
 .subscribe-review img{
-  margin-right: 2rem;
+  margin-right: 4rem;
+  width: 378px;
+height: 320px;
+border-radius: 10px;
+
 }
 
 .subscribe-review h2{
   font-family: 'Public Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 1.2rem;  
+  font-size: 1.5rem;  
   color: #022950;
+  margin: 0;
   
 }
+
+.subscribe-access{
+  margin-inline: 4rem;
+}
+
 .subscribe-access h4{
   font-family: 'Public Sans';
   font-style: normal;
@@ -30,14 +49,14 @@
   
 }
 
-.subscribe-review p{
+/* .subscribe-review p{
 font-weight: 400;
 font-size: 1rem;
 line-height: 24px;
 max-width: 90%;
 color: #022950;
 
-}
+} */
 .signup-img{
   border-radius: 50%;
   width:40px;
@@ -55,9 +74,20 @@ color: #022950;
   height: min-content;
   background: rgba(116, 169, 222, 0.65);
   border-radius: 20px;
-  width: 30%;
+  width: 400px;
+height: 386px;
+margin-bottom: 1rem;
   
 }
+.sub-form h2{
+font-weight: 700;
+font-size: 1.25rem;
+line-height: 24px;
+
+color: #022950;
+
+}
+
 .subscribe-list{
   padding: 0;
   max-width: 20rem;
@@ -67,9 +97,16 @@ color: #022950;
   margin-right: auto;
 }
 .subscribe-list li{
-  list-style: none;
-  line-height: 2;
-  font-size: 1.1rem;
+  /* list-style: none; */
+  font-size: 1.3rem;
+
+  font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+
+color: #022950;
+
 
 }
 .subscribe-btn{
