@@ -2,14 +2,43 @@
   height: 100vh;
   width: 100%;
 }
-
 .navbar{
-  padding-top: 2rem;
   padding:1.5rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.homepage-navbar-logo{
+  display: flex;
+  align-items: center;
+}
+.homepage-navbar-logo img{
+  height: 60px;
+  width: 60px;
+}
+.homepage-navbar-logo h1{
+font-weight: 700;
+font-size: 20px;
+color: #031938;
+
+}
+.home-navbar-links ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.home-navbar-links li{
+  list-style: none;
+  padding-right: 2rem;
+font-weight: 700;
+font-size: 1.25rem;
+color: #022950;
+
+}
+
 
 .training{
   width: 100%;
@@ -30,7 +59,7 @@
   margin-left: 3rem;
   font-family: 'Public Sans';
   font-weight: 700;
-  font-size: 30px;
+  font-size: 1.25rem;
   color: #022950;
   text-decoration: underline;
 }
@@ -38,14 +67,13 @@
 .digital h2{
   margin-left: 3rem;
   margin-top: 1rem;
-  font-family: 'Public Sans';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 47px;
-  max-width: 50rem;
-  color: #022950;
+    color: #022950;
 
+  max-width: 775px;
+font-family: 'Public Sans';
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
 }
 .digital img{
   width: 60%;
@@ -53,9 +81,9 @@
 }
 
 .digital button{
-  height: 3rem;
-  width: 11rem;
-  border-radius: 10px;
+  /* height: 3rem;
+  width: 11rem; */
+  border-radius: 50px;
   border: none;
   outline: none;
   margin-left: 4rem;
@@ -64,11 +92,14 @@
   background: #0352A0;
   font-size: 1.875rem;
   text-align: center;
-
-  font-family: 'Public Sans';
   font-weight: 700;
   font-size: 24px;
   color: #E58A7B;
+
+  font-family: 'Public Sans';
+font-weight: 700;
+padding: .5rem 1rem;
+
 
 }
 .company-btn{

@@ -7,12 +7,20 @@ function Homepage() {
   return (
     <div className="homepage">
       <nav className="navbar">
-        <img height="60" alt="" src={logo} />
-        <div></div>
+        <div className='homepage-navbar-logo'>
+          <img alt="" src={logo} />
+          <h1>E-Tech</h1>
+        </div>
+        <div className='home-navbar-links'>
+          <ul>
+            <li>Why E-tech</li>
+            <li>Testimonial</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
       </nav>
       <div className="digital">
         <div className="training">
-          <h1>E- Tech</h1>
           <h2>
             Training your employees made digital and interactive. Try out our
             website today for more amazing features and awesome content.
@@ -25,6 +33,7 @@ function Homepage() {
           </Link>
         </div>
         <img className="edigital" alt="" src={edigital} />
+        <div></div>
       </div>
     </div>
   );
