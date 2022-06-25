@@ -5,10 +5,12 @@ import { Link } from "react-router-dom";
 import logo from "../../imgs/investment.png";
 import sub from "../../imgs/sub.jpg";
 
+import HomeNav from '../homepage/HomeNav'
 
 function Subscribe() {
   return (
     <div className="subscribe">
+      <HomeNav/>
       <div className="subscribe-review">
         <img src={sub} alt='' />
         <div>
