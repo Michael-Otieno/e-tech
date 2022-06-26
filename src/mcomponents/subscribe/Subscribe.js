@@ -3,7 +3,7 @@ import "./Subscribe.css";
 import { Link } from "react-router-dom";
 
 import logo from "../../imgs/investment.png";
-import sub from "../../imgs/sub.jpg";
+import sub from "../../imgs/sub.png";
 
 import HomeNav from "../homepage/HomeNav";
 
@@ -11,21 +11,7 @@ function Subscribe() {
   return (
     <div className="subscribe">
       <HomeNav />
-      <div className="subscribe-review">
-        <img src={sub} alt="" />
-        <div className="subscribe-cond">
-          <h2>Kindly review our terms and conditions before subscribing.</h2>
-          <p>
-          In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
-          </p>
-          
-          <p>
-          In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.
-          </p>
-        </div>
-      </div>
       <div className="subscribe-access">
-        <h4>Subscribe and give your employees access to:</h4>
         <div className="sub">
           <div className="sub-form">
             <div className="form-logo">
@@ -34,44 +20,52 @@ function Subscribe() {
               <p></p>
             </div>
 
-            <div className="submit">
-              <ul className="subscribe-list">
+            <div className="subscribe-list">
+              <div className="subscribe-img">
+                <img src={sub} alt="" />
+              </div>
+              <ul>
                 <li>Employee attend 1 major training per year</li>
                 <li>Employee can read all articles</li>
                 <li>Employee can't ask questions or get reviews</li>
                 <li>Employee can't take assessments</li>
               </ul>
-              <Link to="/company-details">
-                <input
-                  className="subscribe-btn"
-                  type="Submit"
-                  value="Subscribe"
-                />
-              </Link>
+              <div className="sub-btn">
+                <Link to="/company-details">
+                  <input
+                    className="subscribe-btn"
+                    type="Submit"
+                    value="Subscribe"
+                  />
+                </Link>
+              </div>
             </div>
           </div>
-
           <div className="sub-form">
             <div className="form-logo">
               <img className="signup-img" src={logo} alt="" />
               <h2>Monthly</h2>
               <p></p>
             </div>
-
-            <div className="submit">
-              <ul className="subscribe-list">
-                <li>Employee attend 1 major training per year</li>
+            <div className="subscribe-list">
+              <div className="subscribe-img">
+                <img src={sub} alt="" />
+              </div>
+              <ul>
+                <li>Employee attend 20 major training per year</li>
                 <li>Employee can read all articles</li>
-                <li>Employee can't ask questions or get reviews</li>
-                <li>Employee can't take assessments</li>
+                <li>Employee can ask questions and get reviews</li>
+                <li>Employee can take assessments</li>
               </ul>
-              <Link to="">
-                <input
-                  className="subscribe-btn"
-                  type="Submit"
-                  value="Subscribe"
-                />
-              </Link>
+              <div className="sub-btn">
+                <Link to="">
+                  <input
+                    className="subscribe-btn"
+                    type="Submit"
+                    value="Subscribe"
+                  />
+                </Link>
+              </div>
             </div>
           </div>
 
@@ -82,20 +76,25 @@ function Subscribe() {
               <p></p>
             </div>
 
-            <div className="submit">
-              <ul className="subscribe-list">
-                <li>Employee attend 1 major training per year</li>
+            <div className="subscribe-list">
+              <div className="subscribe-img">
+                <img src={sub} alt="" />
+              </div>
+              <ul>
+                <li>Employee attend any major training per year</li>
                 <li>Employee can read all articles</li>
-                <li>Employee can't ask questions or get reviews</li>
-                <li>Employee can't take assessments</li>
+                <li>Employee can ask questions and get reviews</li>
+                <li>Employee can take any assessments</li>
               </ul>
-              <Link to="/login">
-                <input
-                  className="subscribe-btn"
-                  type="Submit"
-                  value="Subscribe"
-                />
-              </Link>
+              <div className="sub-btn">
+                <Link to="/login">
+                  <input
+                    className="subscribe-btn"
+                    type="Submit"
+                    value="Subscribe"
+                  />
+                </Link>
+              </div>
             </div>
           </div>
         </div>

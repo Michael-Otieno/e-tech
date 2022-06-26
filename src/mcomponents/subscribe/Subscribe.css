@@ -41,22 +41,19 @@ border-radius: 10px;
 }
 
 .subscribe-access h4{
-  font-family: 'Public Sans';
-  font-style: normal;
   font-weight: 700;
   font-size: 1.2rem;  
   color: #022950;
+font-size: 24px;
+margin: 0;
+
+
+padding-top: 2rem;
+padding-bottom: .8rem;
+
   
 }
 
-/* .subscribe-review p{
-font-weight: 400;
-font-size: 1rem;
-line-height: 24px;
-max-width: 90%;
-color: #022950;
-
-} */
 .signup-img{
   border-radius: 50%;
   width:40px;
@@ -68,16 +65,13 @@ color: #022950;
 }
 
 .sub-form{
-  border: 1px solid lightgrey;
+  outline: none;
+  border: none;
   border-radius: 20px;
-  text-align: center;
-  height: min-content;
   background: rgba(116, 169, 222, 0.65);
-  border-radius: 20px;
-  width: 400px;
-height: 386px;
-margin-bottom: 1rem;
-  
+  border-radius: 5px;
+  width: 360px;
+  position: relative;
 }
 .sub-form h2{
 font-weight: 700;
@@ -87,30 +81,31 @@ line-height: 24px;
 color: #022950;
 
 }
-
 .subscribe-list{
-  padding: 0;
-  max-width: 20rem;
-  text-align: left;
-  width: 99%;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+}
+.subscribe-img{
+  text-align: center;
+}
+
+.subscribe-list img{
+  height: 10rem;
+ width: 15rem;
+
 }
 .subscribe-list li{
-  /* list-style: none; */
-  font-size: 1.3rem;
-
-  font-family: 'Public Sans';
-font-style: normal;
+  font-size: 1rem;
 font-weight: 400;
 line-height: 24px;
-
 color: #022950;
+}
 
-
+.sub-btn{
+  text-align: center;
 }
 .subscribe-btn{
   border: none;
   margin-block: 1rem;
-  height: 2rem;
+  height: 2.5rem;
+
 }

@@ -17,9 +17,8 @@ function CompanyDashboard() {
     <div className="dashboard">
       <CompanySidebar />
       <div className="content">
-        <div className="content-header">
-          <h2></h2>
-        </div>
+        {/* <div className="content-header">
+        </div> */}
         <div className="company-activities">
           <div>
             <h4>Request Training / Give Feedback</h4>
