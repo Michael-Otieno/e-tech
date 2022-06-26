@@ -24,7 +24,6 @@ function Content() {
         </div>
 
         <div className="content-activities">
-          
 
           <div className="content-grid">
             <div className="content-grid-img">
@@ -34,7 +33,6 @@ function Content() {
             </div>
             <h4>
               Entrepreneurship
-              {/* <span>complete</span> */}
             </h4>
           </div>
 
@@ -46,7 +44,6 @@ function Content() {
             </div>
             <h4>
               Start ups 
-              {/* <span>complete</span> */}
             </h4>
           </div>
 
@@ -58,7 +55,6 @@ function Content() {
             </div>
             <h4>
               Leadership
-              {/* <span>complete</span> */}
             </h4>
           </div>
 
@@ -95,15 +91,6 @@ function Content() {
             </h4>
           </div>
         </div>
-
-        {/* <div className="news">
-        <div className="content-grid-img">
-            <img src={mental} alt="" />
-            <h4>Family & Mental Health</h4>
-          </div>
-          <img width="50%" src={news} alt="" />
-          
-        </div> */}
       </div>
     </div>
   );
