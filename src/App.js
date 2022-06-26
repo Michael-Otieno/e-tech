@@ -5,7 +5,7 @@ import Homepage from './mcomponents/homepage/Homepage';
 import Signup from './mcomponents/signup/Signup';
 import Login from './mcomponents/login/Login';
 import Dashboard from './mcomponents/dashboard/Dashboard';
-import History from './mcomponents/history/History';
+import Certification from './mcomponents/certification/Certification';
 import Content from './mcomponents/content/Content';
 import Entrepreneur from './mcomponents/entrepreneur/Entrepreneur';
 import Feedback from './mcomponents/feedback/Feedback';
@@ -27,7 +27,7 @@ function App() {
         <Route path='/signup' element={<Signup />} />
         <Route path='/login' element={<Login />} />
         <Route path='/dashboard' element={<Dashboard />} />
-        <Route path='/history' element={<History />} />
+        <Route path='/certification' element={<Certification />} />
         <Route path='/content' element={<Content />} />
         <Route path='/entreprenuer' element={<Entrepreneur />} />
         <Route path='/feedback' element={<Feedback />} />
