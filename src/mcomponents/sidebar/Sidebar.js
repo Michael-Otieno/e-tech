@@ -18,20 +18,24 @@ function Sidebar() {
   return (
     <div>
       <div className="sidebar">
-        <img className="sidebar-logo" alt="logo" src={logo} />
+      <div className='homepage-navbar-logo'>
+      <img className="sidebar-logo" alt="logo" src={logo} />
+          <h1>E-Tech</h1>
+        </div>
+        
         <ul>
           <li className="link-sidebar">
             <NavLink exact to="/dashboard" activeClassName="active">
               <img className="sidebar-img" alt="home icon" src={homeLight} />
-              <span>Dashboard</span>
+              <p>Dashboard</p>
             </NavLink>
           </li>
-          <li className="link-sidebar">
+          {/* <li className="link-sidebar">
             <NavLink to="/history" activeClassName="active">
               <img className="sidebar-img" alt="home icon" src={history} />
               <span>History</span>
             </NavLink>
-          </li>
+          </li> */}
 
           <li className="link-sidebar">
             <NavLink to="/content" activeClassName="active">
