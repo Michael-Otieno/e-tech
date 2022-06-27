@@ -1,43 +1,59 @@
-.subscribe{
-  padding: 1.5rem;
-
-}
 
 .subscribe-review{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin-left: 8rem;
+  margin-top: 1rem;
+}
+.subscribe-cond{
+  max-width: 40rem;
+}
+.subscribe-cond p{
+  font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* or 139% */
+
+
+color: #263238;
+
 }
 
 .subscribe-review img{
-  margin-right: 2rem;
+  margin-right: 4rem;
+  width: 378px;
+height: 320px;
+border-radius: 10px;
+
 }
 
 .subscribe-review h2{
   font-family: 'Public Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 1.2rem;  
+  font-size: 1.5rem;  
   color: #022950;
+  margin: 0;
   
 }
+
+.subscribe-access{
+  margin-inline: 4rem;
+}
+
 .subscribe-access h4{
-  font-family: 'Public Sans';
-  font-style: normal;
   font-weight: 700;
   font-size: 1.2rem;  
   color: #022950;
+font-size: 24px;
+margin: 0;
+
+
+padding-top: 2rem;
+padding-bottom: .8rem;
+
   
 }
 
-.subscribe-review p{
-font-weight: 400;
-font-size: 1rem;
-line-height: 24px;
-max-width: 90%;
-color: #022950;
-
-}
 .signup-img{
   border-radius: 50%;
   width:40px;
@@ -49,31 +65,47 @@ color: #022950;
 }
 
 .sub-form{
-  border: 1px solid lightgrey;
+  outline: none;
+  border: none;
   border-radius: 20px;
-  text-align: center;
-  height: min-content;
   background: rgba(116, 169, 222, 0.65);
-  border-radius: 20px;
-  width: 30%;
-  
+  border-radius: 5px;
+  width: 360px;
+  position: relative;
+}
+.sub-form h2{
+font-weight: 700;
+font-size: 1.25rem;
+line-height: 24px;
+
+color: #022950;
+
 }
 .subscribe-list{
-  padding: 0;
-  max-width: 20rem;
-  text-align: left;
-  width: 99%;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+}
+.subscribe-img{
+  text-align: center;
+}
+
+.subscribe-list img{
+  height: 10rem;
+ width: 15rem;
+
 }
 .subscribe-list li{
-  list-style: none;
-  line-height: 2;
-  font-size: 1.1rem;
+  font-size: 1rem;
+font-weight: 400;
+line-height: 24px;
+color: #022950;
+}
 
+.sub-btn{
+  text-align: center;
 }
 .subscribe-btn{
   border: none;
   margin-block: 1rem;
-  height: 2rem;
+  height: 2.5rem;
+
 }

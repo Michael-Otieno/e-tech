@@ -11,6 +11,7 @@ import company from "../../imgs/company.jpg";
 import content from "../../imgs/content-enroll.png";
 import accountCreate from "../../imgs/account-create.png";
 import { Link } from "react-router-dom";
+import CompanyProfile from "../companyprofile/CompanyProfile";
 
 function CompanyDashboard() {
   return (
@@ -19,16 +20,22 @@ function CompanyDashboard() {
       <div className="content">
         <div className="content-header">
           <h2></h2>
+          <CompanyProfile />
         </div>
         <div className="company-activities">
-          <div>
+          <div className="company-activities-form">
             <h4>Request Training / Give Feedback</h4>
             <textarea className="company-textarea"></textarea>
+            <br />
             <button className="company-feedback-btn">Submit</button>
           </div>
           <div className="employee-list">
-            <h4>Request Training / Give Feedback</h4>
-            <button className="add">Add Employee</button>
+            <h4>Check employee stats</h4>
+            <div className="add">
+              <button>
+                Upload excel containing employee name and email
+              </button>
+            </div>
           </div>
         </div>
       </div>

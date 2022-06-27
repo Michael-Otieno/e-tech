@@ -1,7 +1,24 @@
+.company-activities{
+  display: flex;
+  margin-right: 2.2rem;
+  margin-top: 1.2rem;
+}
+.company-activities-form{
+  margin-right: 1.5rem;
+  position: relative;
+
+}
+.company-activities-form h4{
+  font-size: 20px;
+line-height: 24px;
+color: #022950;
+
+}
+
 .company-feedback-btn{
   width: 100px;
 height: 38px;
-background: #022950;
+background: #0352A0;
 border-radius: 10px;border: none;
 color: #E58A7B;
 font-family: 'Public Sans';
@@ -11,6 +28,7 @@ text-align: center;
 right: 0;
 z-index: 999;
 cursor: pointer;
+position: absolute;
 }
 .company-textarea{
   color: black;  
@@ -22,22 +40,38 @@ cursor: pointer;
   width: 30rem;
   height: 8rem;
 }
-.company-activities{
-  display: flex;
-  justify-content: space-between;
-  margin-right: 2.2rem;
+.employee-list h4{
+  font-size: 20px;
+  line-height: 24px;
+  color: #022950;
 }
+
 .add{
-    height: 38px;
-    background: #022950;
-    border-radius: 10px;
+  width: 570px;
+height: 102px;
+left: 1238px;
+top: 262px;
+
+background: #A1C4E6;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.add button{
     border: none;
     color: #E58A7B;
     font-family: 'Public Sans';
     font-weight: 700;
     font-size: 20px;
     text-align: center;
-    right: 0;
     z-index: 999;
     cursor: pointer;
+
+    width: 512px;
+height: 41px;
+background: #0352A0;
+border-radius: 10px;
+
+position: absolute;
 }

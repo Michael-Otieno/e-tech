@@ -1,63 +1,68 @@
 .trainings{
-  margin-left: 1rem;
-  margin-top: 1.2rem;
-}
-
-.trainings h3{
-  font-weight: 700;
-  font-size: 1.4rem;
-  color: #273E70;
-  
-}
-
-.all-trainings{
   display: flex;
-  width: 100%;
 }
-.company-training ul{
-  text-align: left;
+.trainings-scheduled{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap:2rem;
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+.scheduled{
+  margin-top: 1rem;
+  width: 30%;
+  padding: .2rem 1rem;
+}
+.company-scheduled{
+  margin-bottom: 1.5rem;
+background-color: #A1C4E6;
+border-radius: 5px;
+padding: .5rem;
+}
+
+.company-scheduled h4{
   margin: 0;
-  padding: .3rem;
+  font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+
+color: #022950;
+}
+
+.company-scheduled button{
+  width: 180px;
+  height: 26.95px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  color: #DF5753;
   
-
+  background: #0352A0;
 }
-.company-training li{
-  list-style: none;
-  line-height: 2;
-  background-color: white;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  padding:.4rem .3rem;
-  border-radius: 10px;
-  color: #273E70;
-  cursor: pointer;
-  margin-bottom: 1rem;
-
-  
-}
-.time{
-  color: #2FAE4B;
-}
-.time-end{
-  color:red;
+.trainings-ended{
+  margin-bottom: 1.5rem;
+background-color: #A1C4E6;
+opacity: .7;
+border-radius: 5px;
+padding: .5rem;
 }
 
-.ended-training{
-  margin-left: 2rem;
+.trainings-ended h4{
+  margin: 0;
+  font-weight: 700;
+font-size: 22px;
+line-height: 28px;
 
+color: #022950;
 }
-.ended-training h3{
-  margin-left: 2rem;
+.trainings-ended  button{
+  width: 180px;
+  height: 26.95px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  color: #DF5753;
+  background: #0352A0;
 }
-.ended-training li{
-  list-style: none;
-  line-height: 2;
-  background-color: white;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  padding:.4rem .3rem;
-  border-radius: 10px;
-  color: #273E70;
-  cursor: pointer;
-  margin-bottom: 1rem;
-  background-color: #A1C4E6;
-}
-

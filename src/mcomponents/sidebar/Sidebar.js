@@ -18,43 +18,47 @@ function Sidebar() {
   return (
     <div>
       <div className="sidebar">
-        <img className="sidebar-logo" alt="logo" src={logo} />
+        <div className="homepage-navbar-logo">
+          <img className="sidebar-logo" alt="logo" src={logo} />
+          <h1>E-Tech</h1>
+        </div>
+
         <ul>
           <li className="link-sidebar">
             <NavLink exact to="/dashboard" activeClassName="active">
               <img className="sidebar-img" alt="home icon" src={homeLight} />
-              <span>Dashboard</span>
+              <p>Dashboard</p>
             </NavLink>
           </li>
-          <li className="link-sidebar">
+          {/* <li className="link-sidebar">
             <NavLink to="/history" activeClassName="active">
               <img className="sidebar-img" alt="home icon" src={history} />
               <span>History</span>
             </NavLink>
-          </li>
+          </li> */}
 
           <li className="link-sidebar">
             <NavLink to="/content" activeClassName="active">
               <img className="sidebar-img" alt="home icon" src={content} />
-              <span>Content</span>
+              <p>Content</p>
             </NavLink>
           </li>
           <li className="link-sidebar">
             <NavLink to="/trainings" activeClassName="active">
               <img className="sidebar-img" alt="home icon" src={sessions} />
-              <span>Trainings</span>
+              <p>Trainings</p>
             </NavLink>
           </li>
           <li className="link-sidebar">
             <NavLink to="/certification">
               <img className="sidebar-img" alt="home icon" src={tests} />
-              <span>Certification</span>
+              <p>Certification</p>
             </NavLink>
           </li>
           <li className="link-sidebar">
             <NavLink to="/feedback" activeClassName="active">
               <img className="sidebar-img" alt="home icon" src={feedback} />
-              <span>Feedback</span>
+              <p>Feedback</p>
             </NavLink>
           </li>
           {/* <li className="link">
@@ -66,14 +70,13 @@ function Sidebar() {
           <li className="link-sidebar">
             <NavLink to="/summary" activeClassName="active">
               <img className="sidebar-img" alt="home icon" src={mentorship} />
-              <span>Summary</span>
+              <p>Summary</p>
             </NavLink>
           </li>
 
-          <li  className="link-sidebar">
-            
+          <li className="link-sidebar">
             <NavLink to="/">
-            <img className="sidebar-img" alt="home icon" src={logout} />
+              <img className="sidebar-img" alt="home icon" src={logout} />
               Logout
             </NavLink>
           </li>

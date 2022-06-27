@@ -1,18 +1,15 @@
 import "./Homepage.css";
-import logo from "../../imgs/investment.png";
+import "./HomeNav"
 import edigital from "../../imgs/edigital.png";
 import { Link } from "react-router-dom";
+import HomeNav from "./HomeNav";
 
 function Homepage() {
   return (
     <div className="homepage">
-      <nav className="navbar">
-        <img height="60" alt="" src={logo} />
-        <div></div>
-      </nav>
+      <HomeNav/>
       <div className="digital">
         <div className="training">
-          <h1>E- Tech</h1>
           <h2>
             Training your employees made digital and interactive. Try out our
             website today for more amazing features and awesome content.
@@ -25,6 +22,7 @@ function Homepage() {
           </Link>
         </div>
         <img className="edigital" alt="" src={edigital} />
+        <div></div>
       </div>
     </div>
   );

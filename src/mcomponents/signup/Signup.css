@@ -14,16 +14,10 @@ font-size: 24px;
 color: #022950;
 }
 
-/* .signup img{
-  border-radius: 50%;
-  width:40px;
-
-} */
-
 
 .form{
   background: rgba(116, 169, 222, 0.65);
-  border-radius: 20px;
+  border-radius: 5px;
   width: 30%;
 
 }
@@ -53,11 +47,11 @@ form{
   font-size: 16px;  
 height: 40px;
 background: #FFFFFF;
-border-radius: 10px;
+border-radius: 5px;
 }
 .input{
   width: 80%;
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 
 }
 
@@ -85,13 +79,14 @@ align-items: center;
 
 input[type="submit" i] {
   background: #0352A0;
-  border-radius: 10px;
+  border-radius: 5px;
   font-family: 'Public Sans';
   font-weight: 700;
   font-size: 24px;
   color: #E58A7B;
-  padding: 0rem 1.5rem;
+  padding: 0rem 1rem;
   text-align: center;
+  cursor: pointer;
   
 }
 
@@ -105,13 +100,6 @@ color: #022950;
 
 }
 
-
-
-.nextIcon img{
-  height: 6rem;
-  width: 6rem;
-  cursor: pointer;
-}
 .e-tech-img{
   position: relative;
 }

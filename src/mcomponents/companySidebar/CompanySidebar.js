@@ -21,7 +21,7 @@ function CompanySidebar() {
         <img className="sidebar-logo" alt="logo" src={logo} />
         <ul>
           <li className="link-sidebar">
-            <NavLink exact to="/dashboard" activeClassName="active">
+            <NavLink exact to="" activeClassName="active">
               <img className="sidebar-img" alt="home icon" src={homeLight} />
               <span>Dashboard</span>
             </NavLink>
