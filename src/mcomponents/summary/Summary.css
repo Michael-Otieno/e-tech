@@ -14,7 +14,7 @@ display: flex;
 }
 
 .abilities{
-  padding-top: 1.2rem;
+  padding-top: 2rem;
 }
 
 .abilities h6{
@@ -31,12 +31,13 @@ color: #022950;
   padding: .5rem;
 }
 
-.badge{
-
+.abilities p{
+  list-style: none;
+  line-height: 1.5rem;
+  font-size: 18px;
+  margin-top: 0;
 }
-.badge-list{
 
-}
 .badge-list h6{
   font-weight: 700;
   font-size: 16px;
@@ -58,4 +59,18 @@ color: #022950;
   width: 20px;
   height: 20px;
   margin-right: .5rem;
+}
+.badge-activities{
+  margin-top: 2rem;
+}
+.badge-activities h6{
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+  color: #022950;
+}
+.badge-activities li{
+  list-style: none;
+  line-height: 1.5rem;
+  font-size: 18px;
 }
