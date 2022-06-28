@@ -4,6 +4,8 @@ import cloud from "../../imgs/cloud.png";
 import errorIcon from "../../imgs/error.png";
 import back from "../../imgs/entreLightBack.png";
 import { Link } from "react-router-dom";
+import Userdetails from "../userdetails/Userdetails";
+
 
 function Entrepreneur() {
   return (
@@ -66,6 +68,7 @@ function Entrepreneur() {
               </div>
             </div>
           </div>
+
 
           <Link to="/content">
             <button className="back">
