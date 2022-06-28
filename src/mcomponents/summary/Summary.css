@@ -1,6 +1,7 @@
 .summary{
   background-color: #A1C4E6;
   width: 96%;
+  height: 70vh;
 border-radius: 10px;
 padding: 1rem;
 margin-top: 2rem;
@@ -13,45 +14,63 @@ display: flex;
 }
 
 .abilities{
-  padding-top: .5rem;
-  /* background-color: red; */
+  padding-top: 2rem;
 }
 
 .abilities h6{
   font-weight: 700;
-font-size: 20px;
-line-height: 28px;
-
+font-size: 18px;
+margin: 0;
 color: #022950;
 
 }
-
-
-
-/* .summary{
-  margin-top: 1.2rem;
-  width: 100%;
-  margin-left: 1.4rem;
-}
-.summary-back{
-  width: 90%;
-height: 78vh;
-border-radius: 20px;
-display: flex;
-justify-content: space-around;
-}
 .graph{
-  width: 30rem;
-  padding-top: 4rem;
+  width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  padding: .5rem;
+}
+
+.abilities p{
+  list-style: none;
+  line-height: 1.5rem;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.badge-list h6{
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+  color: #022950;
+}
+.badge-list ul{
+  text-align: left;
+  margin: 0;
+  padding-top: 1.2rem;
 
 }
-.graph-para{
-  max-width: 30rem;
-  line-height: 1.5;
-  font-family: 'Public Sans';
-    font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 18px;
-    color: #273E70;
-    max-width: 500px;
-} */
+.badge-list li{
+  list-style: none;
+  line-height: 1.5rem;
+  font-size: 18px;
+}
+.badge-list img{
+  width: 20px;
+  height: 20px;
+  margin-right: .5rem;
+}
+.badge-activities{
+  margin-top: 2rem;
+}
+.badge-activities h6{
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+  color: #022950;
+}
+.badge-activities li{
+  list-style: none;
+  line-height: 1.5rem;
+  font-size: 18px;
+}

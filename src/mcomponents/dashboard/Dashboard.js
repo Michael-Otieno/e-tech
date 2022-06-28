@@ -24,6 +24,7 @@ function Dashboard() {
             <h2>Welcome back,</h2>
             <div>
               <div className="welcome-cont">
+                
                 <h4>Continue reading</h4>
                 <div className="welcome-img-link">
                   <img src={company} alt="company" />
